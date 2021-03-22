@@ -2,7 +2,6 @@
   "name": "resume",
   "version": "0.1.0",
   "private": true,
-   "homepage": "https://soroush1371.github.io/newResume",
   "dependencies": {
     "mobx": "^5.15.1",
     "mobx-react": "^6.1.4",
@@ -17,8 +16,6 @@
     "typescript": "^3.7.3"
   },
   "scripts": {
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
