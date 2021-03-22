@@ -1,0 +1,101 @@
+html
+body{
+  height:100%;
+  font-family: 'Montserrat', 'sans-serif';
+  margin:0px;
+}
+
+.navigation{
+  float: right;
+  background-color: black;
+position:fixed;
+width: 100vw;
+margin-top: 0px;
+height: 30px;
+
+}
+.navigation a{
+  float: right;
+  margin:2.5px 15px;
+  
+}
+
+.fullpage{
+  margin: 0px;
+  height:100vh;
+  width:100vw;
+  display: flex;
+  flex: auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  }
+  .card{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin:10px;
+    width:120px;
+    height:150px;
+    box-shadow:  0 1px 3px rgba(0, 0, 0, 12) , 0 1px 2px rgba(0,0,0,3);
+    transition:all 0.3s cubic-bezier(0.25,0.8,0.25,1);
+}
+.card-wrapper{
+  display: flex;
+  flex:auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.image-wrapper{
+  
+  padding: 5px;
+}
+
+h4{
+  align-content: center;
+  text-align: center;
+}
+.container {
+  padding: 2px 16px;
+  text-align: center;
+align-content: center;
+}
+.skill-title-wrapper{
+  align-content: center;
+}
+
+.first{
+  background-color:aqua;
+}
+.second{
+  background-color: brown;
+}
+.third{
+  background-color: bisque;
+  margin:0px;
+}
+img{
+  max-width: 100%;
+  max-width: 100%;
+  width:100%;
+  height:50px;
+  margin:0px;
+}
+.Link{
+  margin-top: 0vh;
+} 
+button{
+  width:15px;
+  height: 15px;
+margin: 8px;
+}
+.app{
+  margin:0px;
+}
